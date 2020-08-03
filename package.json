@@ -5,7 +5,7 @@
    "main": "app.js",
   "private": true,
   "scripts": {
-    "start": "node public-flutter/main.dart.js"
+    "start": "node public-flutter/flutter_service_worker.js"
   },
   "author": "Anisio",
   "license": "ISC"
