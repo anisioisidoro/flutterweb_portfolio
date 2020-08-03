@@ -1,19 +1,19 @@
 {
-  "name": "anisio",
-  "version": "1.0.0",
-  "description": "Meu Portfolio",
-   "main": "app.js",
-  "private": true,
-  "scripts": {
-    "start": "node app.js"
-  },
-  "author": "Anisio",
-  "license": "ISC"
-   ,
-  "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "morgan": "~1.9.1"
-   }
+ "name": "anisio",
+ "version": "1.0.0",
+ "description": "Meu Portfolio",
+ "main": "app.js",
+ "private": true,
+ "scripts": {
+  "start": "node ./bin/server.js"
+ },
+ "author": "Anisio",
+ "license": "ISC",
+ "dependencies": {
+  "cookie-parser": "~1.4.4",
+  "debug": "~2.6.9",
+  "express": "~4.16.1",
+  "http": "0.0.1-security",
+  "morgan": "~1.9.1"
+ }
 }
