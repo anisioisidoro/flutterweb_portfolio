@@ -2,7 +2,7 @@
  "name": "anisio",
  "version": "1.0.0",
  "description": "Meu Portfolio",
- "main": "app.js",
+ "main": "./bin/server.js",
  "private": true,
  "scripts": {
   "start": "node ./bin/server.js"
